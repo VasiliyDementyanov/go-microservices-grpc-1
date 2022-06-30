@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 28 22:33:21 2022
+# Make data base, printed on Thu Jun 30 21:11:55 2022
 
 # Variables
 
@@ -51,7 +49,7 @@ SNAP_DATA = /var/snap/code/99
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:56564
+JOURNAL_STREAM = 8:50984
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -73,19 +71,23 @@ MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
 _ = /snap/code/99/usr/share/code/code
 # environment
-MANAGERPID = 4199
+MANAGERPID = 2352
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 LC_NAME = ru_RU.UTF-8
 # environment
 VSCODE_CWD = /home/dementianovvv
+# environment
+GOPROXY = https://proxy.golang.org,direct
 # environment
 GSETTINGS_SCHEMA_DIR = /snap/code/99/usr/share/glib-2.0/schemas
 # default
@@ -95,13 +97,15 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/dementianovvv:@/tmp/.ICE-unix/4831,unix/dementianovvv:/tmp/.ICE-unix/4831
+SESSION_MANAGER = local/dementianovvv:@/tmp/.ICE-unix/2570,unix/dementianovvv:/tmp/.ICE-unix/2570
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/dementianovvv/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
 SNAP = /snap/code/99
+# environment
+GOPATH = /home/dementianovvv/go
 # environment
 SNAP_VERSION = 30d9c6cd
 # environment
@@ -113,7 +117,7 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 45f977407ecc4868b5b3f571b8b8469f
+INVOCATION_ID = cd3b0d6cec194019a688f46f581be600
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/99/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -125,7 +129,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 6946
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4717
 # automatic
 %F = $(notdir $%)
 # environment
@@ -139,13 +143,13 @@ PWD = /home/dementianovvv/projects/go/microservices/go-microservices-grpc-1
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 4686
+SSH_AGENT_PID = 2532
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
 GTK_MODULES = gail:atk-bridge
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+GOMODCACHE = /home/dementianovvv/go/pkg/mod
 # environment
 HOME = /home/dementianovvv
 # environment
@@ -191,7 +195,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-1a7bfb1c-07a4-4a4e-8600-85adf35ce3a4.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-5f2094a3-0a21-4f7c-8be6-c1203251ed59.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -273,9 +277,9 @@ LC_ADDRESS = ru_RU.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 7124
+VSCODE_PID = 4768
 # variable set hash-table stats:
-# Load=131/1024=13%, Rehash=0, Collisions=23/156=15%
+# Load=134/1024=13%, Rehash=0, Collisions=24/159=15%
 
 # Pattern-specific Variable Values
 
@@ -283,9 +287,12 @@ VSCODE_PID = 7124
 
 # Directories
 
-# . (device 66308, inode 4724073): 6 files, no impossibilities.
+# . (device 66308, inode 4724073): 10 files, no impossibilities.
 
-# 6 files, no impossibilities in 1 directories.
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -293,7 +300,6 @@ VSCODE_PID = 7124
 
 # Files
 
- 
 # Not a target:
 all:
 #  Command line target.
@@ -331,12 +337,12 @@ create-db:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 12 / storage = 102 B / avg = 8 B
-# current buf: size = 8162 B / used = 102 B / count = 12 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 177 B / avg = 11 B
+# current buf: size = 8162 B / used = 177 B / count = 16 / avg = 11 B
 
-# strcache performance: lookups = 17 / hit rate = 29%
+# strcache performance: lookups = 21 / hit rate = 23%
 # hash-table stats:
-# Load=12/8192=0%, Rehash=0, Collisions=1/17=6%
-# Finished Make data base on Tue Jun 28 22:33:21 2022
+# Load=16/8192=0%, Rehash=0, Collisions=1/21=5%
+# Finished Make data base on Thu Jun 30 21:11:55 2022
 
  

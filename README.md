@@ -7,3 +7,6 @@ update postgres password
     sudo -i -u postgres
     psql
     ALTER USER postgres PASSWORD 'postgres';
+  
+sudo apt install protobuf-compiler  
+sudo apt install golang-goprotobuf-dev  
