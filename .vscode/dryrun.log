@@ -1,7 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/dementianovvv/projects/go/microservices/go-microservices-grpc-1'
-PGPASSWORD=postgres psql -h localhost -U postgres -c 'CREATE DATABASE auth_svc;'
-PGPASSWORD=postgres psql -h localhost -U postgres -c 'CREATE DATABASE order_svc;'
-PGPASSWORD=postgres psql -h localhost -U postgres -c 'CREATE DATABASE product_svc;'
-make: Leaving directory '/home/dementianovvv/projects/go/microservices/go-microservices-grpc-1'
- 
