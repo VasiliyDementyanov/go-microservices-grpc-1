@@ -10,5 +10,3 @@ update postgres password
   
 sudo apt install protobuf-compiler  
 sudo apt install golang-goprotobuf-dev  
-  
-go mod init github.com/VasiliyDementianov/go-grpc-svc
