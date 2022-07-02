@@ -16,7 +16,7 @@ func RegisterRoutes(r *gin.Engine, c *config.Config, authSvc *auth.ServiceClient
 
 	routes := r.Group("/product")
 	routes.Use(a.AuthRequired)
-	routes.POST("/", svc.CreateProduct)
+	routes.POST("/create", svc.CreateProduct)
 	routes.GET("/:id", svc.FindOne)
 }
 
