@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul  2 11:44:36 2022
+# Make data base, printed on Sat Jul  2 12:15:10 2022
 
 # Variables
 
@@ -51,15 +51,15 @@ SNAP_DATA = /var/snap/code/99
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:52584
+JOURNAL_STREAM = 8:53678
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
 SNAP_ARCH = amd64
-# makefile (from 'makefile', line 1)
-MAKEFILE_LIST :=  makefile
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
 # automatic
 @F = $(notdir $@)
 # environment
@@ -81,7 +81,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 _ = /snap/code/99/usr/share/code/code
 # environment
-MANAGERPID = 2274
+MANAGERPID = 2265
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -99,7 +99,7 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/dementianovvv:@/tmp/.ICE-unix/2491,unix/dementianovvv:/tmp/.ICE-unix/2491
+SESSION_MANAGER = local/dementianovvv:@/tmp/.ICE-unix/2481,unix/dementianovvv:/tmp/.ICE-unix/2481
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -119,7 +119,7 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 6fa92e65c585414aa1d1d64c0b1cfb9d
+INVOCATION_ID = d520db08c6384973909f371ef316b2b9
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/99/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -131,7 +131,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 5885
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3717
 # automatic
 %F = $(notdir $%)
 # environment
@@ -145,7 +145,7 @@ PWD = /home/dementianovvv/projects/go/microservices/go-microservices-grpc-1
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2453
+SSH_AGENT_PID = 2443
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -197,7 +197,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-949def76-84dc-4ce4-99c7-3a0aef14242b.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-fd71d426-44aa-4fff-8232-33d7a2c068fc.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -279,14 +279,14 @@ LC_ADDRESS = ru_RU.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 5938
+VSCODE_PID = 3767
 # variable set hash-table stats:
 # Load=134/1024=13%, Rehash=0, Collisions=24/159=15%
+ 
 
 # Pattern-specific Variable Values
 
 # No pattern-specific variable values.
- 
 
 # Directories
 
@@ -308,7 +308,7 @@ all:
 #  File has not been updated.
 
 # Not a target:
-makefile:
+Makefile:
 #  Implicit rule search has been done.
 #  Last modified 2022-06-28 22:03:27.877307492
 #  File has been updated.
@@ -318,7 +318,7 @@ create-db:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'makefile', line 2):
+#  recipe to execute (from 'Makefile', line 2):
 	PGPASSWORD=postgres psql -h localhost -U postgres -c 'CREATE DATABASE auth_svc;'
 	PGPASSWORD=postgres psql -h localhost -U postgres -c 'CREATE DATABASE order_svc;'
 	PGPASSWORD=postgres psql -h localhost -U postgres -c 'CREATE DATABASE product_svc;'
@@ -343,6 +343,6 @@ create-db:
 # strcache performance: lookups = 21 / hit rate = 23%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=1/21=5%
-# Finished Make data base on Sat Jul  2 11:44:36 2022
+# Finished Make data base on Sat Jul  2 12:15:10 2022
 
  
